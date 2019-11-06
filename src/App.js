@@ -107,8 +107,6 @@ autorun(() => {
     console.log('autorun count', store.count);
 });
 
-store.count = 1;
-
 const App = () => {
     return (
         <Fragment>
